@@ -1,6 +1,4 @@
 ---
 deployment:
   tasks:
-    - npm install
-    - npm run build
     - /bin/cp -R dist/* /home/shellinfosec/vytalitics.com/
