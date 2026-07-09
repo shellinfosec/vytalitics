@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/shellinfosec/vytalitics.com
+    - npm install
+    - npm run build
+    - /bin/cp -a dist/* $DEPLOYPATH/
